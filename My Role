@@ -1,0 +1,11 @@
+In today's fast-paced world, it's impractical for most people to visit the hospital daily just to check their heart rate or other cardiovascular metrics. However, with advancements in technology, we now have smart gadgets like smartwatches that can help monitor our heart health continuously and conveniently.
+
+My current project, "Deep Learning based approaches for Cardiovascular monitoring using seismocardiogram (SCG) signals," aims to enhance these wearable technologies. We're focusing on learning patterns to synthesize electrocardiogram (ECG) signals from SCG signals, and vice-versa, using a sophisticated model called the Unified Attentive Cyclic Generative Adversarial Network (GAN).
+
+These smartwatches equipped with SCG sensors can provide continuous and non-invasive monitoring of heart health. By detecting critical metrics such as heart rate variability, respiratory rate, and arrhythmias, these devices can alert users to potential health issues in real-time.
+----------------------------------
+My Role
+----------------------------------
+In this project, my role is to handle the pre-processing of SCG signals to ensure the data is of high quality before it is fed into our deep learning models. I use wavelet transformation to clean and transform the raw SCG data, highlighting essential features and reducing noise. This step is crucial for accurate signal analysis.
+
+Additionally, I work with Generative Adversarial Networks (GANs) to improve the synthesis of ECG signals from SCG signals. By training these models on high-quality pre-processed data, we can achieve more accurate and reliable signal conversions.
