@@ -4,8 +4,15 @@ My current project, "Deep Learning based approaches for Cardiovascular monitorin
 
 These smartwatches equipped with SCG sensors can provide continuous and non-invasive monitoring of heart health. By detecting critical metrics such as heart rate variability, respiratory rate, and arrhythmias, these devices can alert users to potential health issues in real-time.
 ----------------------------------
-My Role
-----------------------------------
-In this project, my role is to handle the pre-processing of SCG signals to ensure the data is of high quality before it is fed into our deep learning models. I use wavelet transformation to clean and transform the raw SCG data, highlighting essential features and reducing noise. This step is crucial for accurate signal analysis.
+My Role in the Project
+As part of this cutting-edge research, my role focuses on developing and optimizing the GAN architecture for SCG-to-ECG signal conversion. Specifically:
 
-Additionally, I work with Generative Adversarial Networks (GANs) to improve the synthesis of ECG signals from SCG signals. By training these models on high-quality pre-processed data, we can achieve more accurate and reliable signal conversions.
+✅ Wavelet Transformation & Signal Processing – I apply wavelet transformations to denoise and enhance SCG signals, ensuring that only meaningful features are extracted. This step is critical for improving signal quality before feeding data into our deep learning models.
+
+✅ GAN Model Optimization – I work on refining the Unified Attentive Cyclic GAN, which allows seamless bi-directional conversion between ECG and SCG signals while maintaining signal integrity.
+
+✅ Ensuring High-Fidelity Data – By applying advanced cycle-consistency loss functions and multi-scale discriminators, I help improve the model’s accuracy, ensuring that the generated signals closely match real-world ECG data.
+
+Through this work, we're advancing the field of wearable heart monitoring—making AI-driven cardiac health tracking more accessible, reliable, and efficient.
+----------------------------------
+Additionally, I was also handling a bit of the pre-processing of SCG signals to ensure the data is of high quality before it is fed into our deep learning models. I use wavelet transformation to clean and transform the raw SCG data, highlighting essential features and reducing noise. This step is crucial for accurate signal analysis.
